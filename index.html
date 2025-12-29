@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="3g8g-P34t_-zW6QuZtF5Y8RNcIJ3nXejFRt7P1YS_Vk" />
+    
     <title>DarkLink | Beyond Limits</title>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="DarkLink Messenger Mod. Anti-Delete, Ghost Mode, Premium Unlocked. For Link Messenger users.">
-    <meta name="keywords" content="DarkLink, Link Messenger Mod, Anti-Delete, Ghost Mode, Turkmenistan, APK">
+    <meta name="description" content="DarkLink Messenger Mod. Anti-Delete, Ghost Mode, View-Once Bypass. For Link Messenger (+993).">
+    <meta name="keywords" content="DarkLink, Link Messenger Mod, Anti-Delete, Ghost Mode, Turkmenistan, APK, Pozulmayan hatlar">
 
     <style>
         :root {
@@ -24,12 +26,7 @@
             --text-secondary: #94a3b8;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', sans-serif;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
 
         body {
             background-color: var(--bg-dark);
@@ -100,22 +97,42 @@
             margin-bottom: 40px;
         }
 
+        /* BUTTONS GROUP */
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
         .cta-button {
-            background: var(--accent);
-            color: white;
-            padding: 16px 48px;
+            padding: 16px 32px;
             border-radius: 12px;
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1rem;
             text-decoration: none;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: var(--accent-glow);
             border: 1px solid rgba(255,255,255,0.1);
         }
 
-        .cta-button:hover {
-            transform: translateY(-2px) scale(1.02);
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            box-shadow: var(--accent-glow);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
             box-shadow: 0 0 40px rgba(59, 130, 246, 0.7);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
         }
 
         .region-badge {
@@ -211,7 +228,6 @@
             font-size: 0.9rem;
         }
 
-        /* --- FOOTER --- */
         footer {
             padding: 40px;
             text-align: center;
@@ -223,6 +239,8 @@
         @media (max-width: 768px) {
             h1 { font-size: 3rem; }
             .grid { grid-template-columns: 1fr; }
+            .button-group { flex-direction: column; width: 100%; max-width: 300px; }
+            .cta-button { width: 100%; text-align: center; }
         }
     </style>
 </head>
@@ -239,7 +257,13 @@
         <h1>Unleash the<br>Untouchable.</h1>
         <p>The advanced Link Messenger modification with Anti-Delete, Ghost Mode and Privacy Bypass. Take back control.</p>
         
-        <a href="https://github.com/DarkLinkApp/DarkLink/releases/latest" class="cta-button">Download APK</a>
+        <div class="button-group">
+            <!-- ПРЯМАЯ ССЫЛКА НА APK (ОБНОВИ ЕЁ, КОГДА ЗАЛЬЕШЬ ФАЙЛ) -->
+            <a href="https://github.com/DarkLinkApp/DarkLink/releases/download/v1.0/DarkLink_v1.0.apk" class="cta-button btn-primary">Download APK</a>
+            
+            <!-- ССЫЛКА НА СТРАНИЦУ РЕЛИЗОВ GITHUB -->
+            <a href="https://github.com/DarkLinkApp/DarkLink/releases" class="cta-button btn-secondary">GitHub Releases</a>
+        </div>
         
         <div class="region-badge">
             Designed for +993 (Turkmenistan)
@@ -301,6 +325,26 @@
                 <div class="step-content">
                     <h4>Install DarkLink</h4>
                     <p>Download and install DarkLink APK. Allow installation from unknown sources.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-num">04</div>
+                <div class="step-content">
+                    <h4>Restore</h4>
+                    <p>Open DarkLink. Tap "Restore Backup" on the welcome screen. Select your file and enter the code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 DarkLink Project. Not affiliated with Link Messenger.<br>
+        Educational purpose only.
+    </footer>
+
+</body>
+</html>ownload and install DarkLink APK. Allow installation from unknown sources.</p>
                 </div>
             </div>
 
